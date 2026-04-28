@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:#f0fbf9;
+}
+
+.sidebar{
+    width:350px;
+    height:100vh;
+    background:#1f2d3d;
+    color:white;
+    position:fixed;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:20px 0;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+    font-size:20px;
+}
+
+.sidebar li{
+    padding:15px;
+    cursor:pointer;
+}
+
+.sidebar li:hover{
+    background:#08abd8;
+}
+
+.content{
+    margin-left:400px;
+    padding:40px;
+}
+
+.page{
+    font-size:30px;
+}
+
+#dashboardCards{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.card{
+    padding:20px;
+    color:white;
+    border-radius:8px;
+    min-width:200px;
+    transition:0.3s;
+    font-size: larger;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+button{
+    padding:8px 15px;
+    margin:5px;
+}
+
+button:hover{
+    background-color: rgb(12, 173, 242);
+}
+
+input,select{
+    border:2px solid rgb(71,162,243);
+    width:400px;
+    height:35px;
+    margin:5px;
+}
+select{
+     border:2px solid rgb(71,162,243);
+}
+select:focus{
+    border: 2px solid black;
+}

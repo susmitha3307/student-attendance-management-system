@@ -1,0 +1,59 @@
+
+
+#loginPage{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-image: url('./vemu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-box{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+}
+
+.login-box input{
+    padding:8px;
+    margin:8px;
+    width:200px;
+    height: 20px;
+}
+.login-box select{
+    padding:8px;
+    margin:8px;
+    width:200px;
+    height: 33px;
+        border: 2px solid rgb(71,162,243);
+}
+
+
+
+
+input{
+    border: 2px solid rgb(71,162,243);
+}
+
+input:focus,select:focus{
+    border:2px solid black;
+}
+
+button{
+    padding:8px 15px;
+    margin:5px;
+}
+
+button:hover{
+    background-color: rgb(0, 195, 255);
+}
+
+#loginMsg{
+    color:red;
+    margin-bottom:10px;
+    font-weight:bold;
+}
